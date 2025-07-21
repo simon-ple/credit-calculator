@@ -1,4 +1,4 @@
-<p>The <em class='rn_Highlight'>Credit</em> <em class='rn_Highlight'>Calculator</em> helps you quickly <em class='rn_Highlight'>calculate</em> the <em class='rn_Highlight'>credit</em> owed to a customer for completed orders that can't be amended. It ensures accurate adjustments for percentage, fixed price, or money off discounts.</p>
+<p>The <em class='rn_Highlight'>Credit</em> <em class='rn_Highlight'>Calculator</em> helps you quickly <em class='rn_Highlight'>calculate</em> the <em class='rn_Highlight'> a better offer credit</em> owed to a customer for completed orders that can't be amended. It ensures accurate adjustments for percentage, fixed price, or money off discounts.</p>
 
 <div class="calculator-container">
 <h2><em class='rn_Highlight'>Credit</em> <em class='rn_Highlight'>Calculator</em></h2>
@@ -142,7 +142,7 @@
 
 <h4><strong>8. Copy Results</strong></h4>
 
-<p>To copy the results to your clipboard, click the <strong>Copy</strong> button. Then, paste the results directly into OPTIONS and tag fpt-cc-payment-refund-query so FPT can process your customer's e-voucher or refund.</p>
+<p>To copy the results to your clipboard, click the <strong>Copy</strong> button. Then, paste the results directly into OPTIONS and tag <strong>fpt-bor</strong> so FPT can process your customer's e-voucher or refund.</p>
 
 <h4><strong>9. Delete Row</strong></h4>
 
@@ -468,7 +468,7 @@
             resultText += `\nOffer Code: ${offerCode}\n`;
         }
 
-        resultText += `\nTotal Credit Owed: ${totalCredit.toFixed(2)}\nTagged: fpt-cc-payment-refund-query.`;
+        resultText += `\nTotal Credit Owed: ${totalCredit.toFixed(2)}\nTagged: fpt-bor.`;
         document.getElementById('result').textContent = resultText;
     }
 
